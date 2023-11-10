@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cafeteriastres">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="313dp"
+        android:layout_height="282dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.267"
+        app:srcCompat="@drawable/cafee" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="366dp"
+        android:layout_height="273dp"
+        android:text="Casa del Café inicia como un negocio familiar en 1993 y es considerado el primer café –restaurante de Nicaragua. Se posicionó como un lugar donde vendían café gourmet recién tostado, bebidas a base de café y un menú reducido de pastelería, sándwiches, sopas y ensaladas. Ante el éxito obtenido, Casa del Café continuó creciendo hasta convertirse en el líder del mercado nacional. Actualmente cuenta con más de 25 sucursales alrededor del país. Creemos firmemente en que lo mejor se comparte, es por esta razón que nos enorgullece servir el mejor café gourmet de Nicaragua."
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.877" />
+
+    <Button
+        android:id="@+id/buttonatras3"
+        android:layout_width="89dp"
+        android:layout_height="36dp"
+        android:backgroundTint="#0E69B1"
+        android:text="Atrás"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="241dp"
+        android:layout_height="104dp"
+        android:text="Casa del Café"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="#FF9800"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.864"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025" />
+</androidx.constraintlayout.widget.ConstraintLayout>
